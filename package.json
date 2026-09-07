@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Supabase Database Architecture & Client for Secure Digital Document Management System",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "type-check": "tsc --noEmit",
