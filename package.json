@@ -1,0 +1,32 @@
+{
+  "name": "secure-document-management-db",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Supabase Database Architecture & Client for Secure Digital Document Management System",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "test:db": "tsx tests/database_validation.ts"
+  },
+  "keywords": [
+    "supabase",
+    "postgresql",
+    "rls",
+    "pgvector",
+    "legal",
+    "investigation",
+    "documents"
+  ],
+  "author": "Google DeepMind Advanced Agentic Coding Pair",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
